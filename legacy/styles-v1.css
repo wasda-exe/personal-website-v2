@@ -1,0 +1,94 @@
+:root {
+    --clr-primary: #1B2430;
+    --clr-secondary: #816797;
+    --clr-neutral: #51557E;
+    /* --clr-highlight: #D6D5A8; */
+    --clr-highlight: #5A8F7B;
+    --clr-accent: #D6D5A8;
+    /* #20C20E */
+    --fs-xl: clamp(1.5rem, 8vw + 0.5rem , 5rem);
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+h1 {
+    color: var(--clr-highlight);
+    font-family: 'Sacramento', cursive;
+    font-size: var(--fs-xl);
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc((1.5 / 2) * var(--fs-xl));
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc((1.17 / 2) * var(--fs-xl));
+}
+p {
+    max-width: 50ch;
+}
+
+
+.top {
+    position: relative;
+    height: 0;
+    background-image: url("../images/masthead/Purple_Top_Left_V2_\(More-Blending\).png");
+    background-size: cover; 
+    padding-bottom: 56.25%;
+}
+
+.top-content-wrapper {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-content-wrapper img {
+    position: absolute;
+}
+.top-content-blue-planet {
+    top: 9%;
+    right: 7%;
+    width: 20%;
+}
+.top-content-orange-planet {
+    top:25%;
+    left: 12%;
+    width: 13%;
+}
+.top-content-city {
+    width: 30vw;
+    left: 50%;
+    bottom: 0;
+}
+
+.top-content-wrapper h1 {
+    margin: 1.5em auto 0;
+}
+
+.top-content-wrapper h3 {
+    margin: 0 auto 2em;
+}
+
+
+.intro {
+    position: relative;
+    background-color: var(--clr-neutral);
+}
+
+.intro-content-mountain {
+    position: absolute;
+    width: 30vw;
+    transform: rotate(180deg);
+    top: 0;
+    left: 50%;
+}
+.intro-content-smile-circ2 {
+    display: inline-block;
+    position: relative;
+    width: 10%;
+}
