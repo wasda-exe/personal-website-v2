@@ -12,7 +12,7 @@ const scrollAsteroidsTimeline = new ScrollTimeline ({
     // ],
     scrollOffsets: [
         CSS.percent(0),
-        CSS.percent(25)
+        CSS.percent(20)
     ],
     // scrollOffsets: [
     //     new CSSUnitValue(0, 'percent'),
@@ -22,24 +22,11 @@ const scrollAsteroidsTimeline = new ScrollTimeline ({
 
 scrollAsteroids.animate(
     [
-        {
-            transform: 'translateX(0vw) translateY(0vw)',
-            opacity: '1'
-        },
-        {
-            transform: 'translateX(77.5vw) translateY(45vw)',
-            // opacity: '0.2'
-            opacity: '1'
-        },
-        {
-            transform: 'translateX(155vw) translateY(90vw)',
-            // opacity: '0'
-            opacity: '0'
-        }
+        {transform: 'translateX(0vw) translateY(0vw)'},
+        {transform: 'translateX(155vw) translateY(80vw)'}
     ]
     // {
-    //     transform: ['translateX(0vw) translateY(0vw)', 'translateX(155vw) translateY(80vw)'],
-    //     opacity: ['1','0']
+    //     transform: ['translateX(0vw)', 'translateX(155vw)'],
     // }
     ,
     {

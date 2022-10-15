@@ -157,7 +157,6 @@ footer {
     top: -25vw;
     /* mobile */
     top: -45vw;
-    top: -50vw;
     /* right: -25vw; */
     /* right: -35vw; */
     z-index: 1;
@@ -276,7 +275,6 @@ footer {
     .top-city{
         /* top: -1rem; */
         width: 20vw;
-        z-index: 10;
     }
 }
 @media ((min-width: 480px) and (max-width: 700px)){
@@ -307,14 +305,12 @@ footer {
     left: 50%;
     width: 35vw;
     transform: rotate(180deg);
-    z-index: 10;
 }
 .intro-smile-circ2 {
     position: absolute;
     margin-top: -25vw;
     left: -0.9vw;    
     width: 60%;
-    z-index: 10;
 }
 .intro-text {
     /* margin-top: 52.5vw; */
